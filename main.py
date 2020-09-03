@@ -42,7 +42,7 @@ if __name__ == '__main__':
                 datecol.append('A')
         finalAttendence[date]=datecol
     fin=pd.DataFrame.from_dict(finalAttendence)
-    fin.to_csv('MonthAttendence.csv')
+    fin.to_csv('MonthlyAttendence.csv')
 
 
 
